@@ -1,0 +1,54 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$grey: #888;
+$yellow: #feffe1;
+
+body {
+  font-family: "Arial";
+}
+
+.chat-box {
+  border-left: 5px solid $grey;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 3px 3px 10px 0px rgba(0,0,0,.1);
+}
+
+.chat-box-answer {
+  background-color: $yellow;
+  border-left: 5px solid $grey;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 3px 3px 10px 0px rgba(0,0,0,.1);
+}
+
+.sender {
+  font-style: italic;
+}
+
+.answer {
+  font-weight: 700;
+}
+
+.button {
+  margin: -44px;
+  height: 35px;
+  color: white;
+  background: blue;
+  border-radius: 5px;
+  border: 0px;
+}
+
+.input-bar {
+  height: 30px;
+  width: 400px;
+  border: 1px solid $grey;
+  border-radius: 5px;
+}
+
+.container {
+  width: 450px;
+  margin: 0 auto;
+}
